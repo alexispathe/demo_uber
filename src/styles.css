@@ -3,3 +3,61 @@
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    width: 100%;
+}
+/* Comienzan los estilos del menu */
+.header-container{
+    width: 100%;
+    height: 100px;
+    /* background-color:pink ; */
+}
+.header{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    /* background-color: purple; */
+    justify-content: space-around;
+}
+.burger-menu i{
+    cursor:pointer;
+    font-size:25px;
+}
+/* Fin de los estilos del menu */
+.header-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    /* background-color: gold; */
+    justify-content: space-around;
+}
+.btn-login, .btn-register{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-login{
+    background-color: white;
+}
+.btn-register{
+    background-color: black;
+}
+.btn-login a, .btn-login i{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-register a, .btn-register i{
+    text-decoration: none;
+    color: white;
+}
