@@ -1,7 +1,12 @@
 *{
     padding:0px;
     margin: 0px;
+   
+}
+body{
+    background-color: rgb(255, 210, 8);
     font-family: 'Roboto', sans-serif;
+
 }
 .container{
     width: 100%;
@@ -60,4 +65,74 @@
 .btn-register a, .btn-register i{
     text-decoration: none;
     color: white;
+}
+
+/* Estilos del buscador */
+.search-container{
+    width: 90%;
+    margin: 40px auto;
+}
+.title{
+    max-width: 450px;
+}
+.op-delivery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 40px;
+    background-color: rgba(24, 0, 0, 0.13);
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-delivery-container, .collect-order-container{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+.home-delivery-container  {
+    background-color: white;
+    border-radius: 20px;
+}
+.home-delivery-container a, .collect-order-container a{
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.search{
+    margin-top: 30px;
+    width: 70%;
+    /* background-color: red; */
+}
+.search-form{
+    width: 100%;
+}
+.search-form input{
+    height: 50px;
+    border: 0px;
+}
+.search-form input[type="search"]{
+    background-image: url('./icon/location.svg');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 70%;
+    background-position-y: center;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+.search-form input[type="search"]:focus{
+    transition-duration: 1s;
+    outline: none;
+    border-bottom: 2px solid blue;
+   
+}
+.search-form input[type="button"]{
+    width: 25%;
+    font-size: 15px;
+}
+/* Fin de los estilos del buscador */
+.info-container{
+    margin-top: 20px;
 }
